@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Dashboard"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+    </group>
+
+    <item
+        android:title="Manage Books">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_Add_Book_Cat"
+                    android:title="Add Book Category"
+                    android:icon="@drawable/books_cat_icon"/>
+                <item
+                    android:id="@+id/nav_Book_Cat"
+                    android:title="Book Categories"
+                    android:icon="@drawable/books_cat_icon"/>
+
+                <item
+                    android:id="@+id/nav_Books"
+                    android:title="Books"
+                    android:icon="@drawable/books_icon"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Others">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_Current_Book"
+                    android:title="Current Issued Books"
+                    android:icon="@drawable/current_book_icon"/>
+
+                <item
+                    android:id="@+id/nav_Book_Issue_Req"
+                    android:title="Book Issue Requests"
+                    android:icon="@drawable/book_issue_history_icon"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_Logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout_icon"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

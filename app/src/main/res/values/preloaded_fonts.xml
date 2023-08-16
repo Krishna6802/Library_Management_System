@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/b612_mono</item>
+        <item>@font/baloo</item>
+        <item>@font/cantata_one</item>
+        <item>@font/chango</item>
+        <item>@font/reggae_one</item>
+    </array>
+</resources>
