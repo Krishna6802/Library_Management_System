@@ -37,7 +37,6 @@ public class SignUpActivity extends AppCompatActivity {
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String Name;
                 String Fullname = fullName.getText().toString();
                 String Uname = userName.getText().toString();
                 String Upass = password.getText().toString();
